@@ -35,7 +35,7 @@ const Contact = () => {
         () => {
           alert('Message successfully sent!');
           setLoading(false);
-          window.location.reload(false);
+          form.current.reset(); // Clear form after successful submission
         },
         () => {
           alert('Failed to send the message, please try again');
@@ -60,11 +60,12 @@ const Contact = () => {
                 idx={15}
               />
             </h1>
-            <p>
-              I am interested in freelance opportunities - especially on ambitious
-              or large projects. However, if you have any other requests or
-              questions, don't hesitate to contact me using the form below.
-            </p>
+            <p className="contact-info">
+  I am interested in freelance opportunities - especially on ambitious
+  or large projects. However, if you have any other requests or
+  questions, don't hesitate to contact me using the form below.
+</p>
+
             <div className="contact-form">
               <form ref={form} onSubmit={sendEmail}>
                 <ul>

@@ -48,9 +48,7 @@ const About = () => {
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+          I’m a tech-obsessed student pursuing BTech in CSE, passionate about sports, a photography enthusiast, and always prioritizing family!
           </p>
         </div>
 
