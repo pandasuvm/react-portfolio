@@ -12,6 +12,9 @@
   "@emailjs/browser": "^4.4.1",
   
     
+  "@fortawesome/fontawesome-svg-core": "^6.6.0",
+  
+    
   "@fortawesome/free-brands-svg-icons": "^6.6.0",
   
     
@@ -48,6 +51,9 @@
   "react": "^18.3.1",
   
     
+  "react-custom-cursor": "^0.1.1",
+  
+    
   "react-dom": "^18.3.1",
   
     
@@ -63,7 +69,13 @@
   "react-scripts": "5.0.1",
   
     
+  "react-tsparticles": "^2.12.2",
+  
+    
   "sass": "^1.77.8",
+  
+    
+  "tsparticles": "^3.5.0",
   
     
   "web-vitals": "^2.1.4"
