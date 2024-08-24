@@ -1,0 +1,142 @@
+.portfolio-page {
+    margin-left: 120px; /* Adjust based on your sidebar width */
+    padding: 40px;
+    /* Ensures content does not overlap with sidebar */
+  }
+  
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 35px;
+    padding: 0; /* Reset padding */
+    /* Adjusted padding to fit the container */
+  }
+  
+  .portfolio-box {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .portfolio-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .project-title {
+    margin: 20px 0 10px 0;
+    padding: 0 20px;
+    font-size: 2rem; /* Increased font size */
+  }
+  
+  .project-description {
+    padding: 0 20px;
+    color: #666;
+  }
+  
+  .project-technologies {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .tech-badge {
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  
+  .titlep {
+    font-size: 40px;
+    color: white;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .portfolio-page {
+      margin-left: 0;
+      padding: 20px; /* Reduce padding for smaller screens */
+    }
+  
+    .portfolio-container {
+      grid-template-columns: 1fr; /* Stack items on top of each other */
+      gap: 20px; /* Reduce gap between items */
+    }
+  
+    .portfolio-box {
+      margin: 0 auto; /* Center align the portfolio box */
+    }
+  
+    .project-image {
+      height: 150px; /* Reduce image height on smaller screens */
+    }
+  
+    .project-title {
+      font-size: 1.5rem; /* Adjust font size */
+      padding: 0 10px;
+    }
+  
+    .project-description {
+      padding: 0 10px;
+    }
+  
+    .project-technologies {
+      padding: 10px;
+      gap: 5px;
+    }
+  
+    .tech-badge {
+      font-size: 10px; /* Adjust font size */
+      padding: 3px 7px;
+    }
+  
+    .titlep {
+      font-size: 30px; /* Adjust title size */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .portfolio-page {
+      padding: 15px; /* Further reduce padding */
+    }
+  
+    .portfolio-container {
+      gap: 15px; /* Further reduce gap */
+    }
+  
+    .portfolio-box {
+      padding: 0; /* Remove any extra padding */
+    }
+  
+    .project-image {
+      height: 120px; /* Further reduce image height */
+    }
+  
+    .project-title {
+      font-size: 1.2rem; /* Further adjust font size */
+    }
+  
+    .project-technologies {
+      padding: 5px;
+    }
+  
+    .tech-badge {
+      font-size: 9px; /* Further adjust font size */
+      padding: 2px 5px;
+    }
+  
+    .titlep {
+      font-size: 24px; /* Further adjust title size */
+    }
+  }
+  
