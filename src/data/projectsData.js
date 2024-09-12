@@ -2,7 +2,8 @@
 
 const project1Image = require('../assets/images/project1.png'); // Importing image
 const project2Image = require('../assets/images/project2.png'); // Importing image
-const project3Image = require('../assets/images/project3.png'); // Importing image
+const project3Image = require('../assets/images/project3.png');
+const project4Image = require('../assets/images/project4.png'); // Importing image
 
 const projectsData = [
   {
@@ -43,6 +44,22 @@ const projectsData = [
     ], 
     image: project3Image, // Use the imported image
     link: 'https://your-solar-mapper-project-link.com', // Replace with your actual link
+  },
+
+  {
+    id: 4,
+    title: 'CodeLog',
+    description: 'CodeLog is a powerful browser extension designed to help developers and students streamline their DSA problem-solving journey across multiple platforms like LeetCode, GeeksforGeeks, and Coding Ninjas. With features such as saving and tracking questions, adding personal notes, and exporting data as CSV, CodeLog simplifies managing progress and staying organized. The intuitive interface provides easy sorting, searching, and the ability to mark questions as completed, all in a minimal, coding-themed design. Perfect for anyone looking to stay on top of their problem-solving tasks and enhance their learning process.',
+
+    technologies: [
+      'HTML', 
+      'CSS', 
+      'JavaScript', 
+      'Chrome Storage API', 
+      
+    ], 
+    image: project4Image, // Use the imported image
+    link: 'https://chromewebstore.google.com/detail/dsa-questions-saver/fhlhddcbfmlfeaknidfmpfdpndbkooff?authuser=0&hl=en', // Replace with your actual link
   },
   // Add more projects as needed
 ];
